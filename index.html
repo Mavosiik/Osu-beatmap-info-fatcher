@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osu! Beatmap Info</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Osu! Beatmap Info</h1>
+        <select id="modSelect">
+            <option value="0">No Modification</option>
+            <option value="2">EZ</option>
+            <option value="16">HR</option>
+            <option value="64">DT</option>
+            <option value="256">HT</option>
+        </select>
+        <div id="apiKeyContainer">
+            <input type="text" id="apiKeyInput" placeholder="Enter API key">
+            <button id="saveApiKeyBtn" onclick="saveApiKey()">Save API Key</button>
+            <button id="changeApiKeyBtn" onclick="toggleApiKeyInput()">Change API Key</button>
+        </div>
+        
+        <input type="text" id="beatmapIdInput" placeholder="Enter beatmap ID">
+        <button id="getInfoBtn" onclick="fetchBeatmapInfo()">Get Info</button>
+        
+        <div id="beatmapInfo">
+            <!-- Information will be displayed here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

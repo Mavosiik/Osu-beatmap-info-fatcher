@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'CCMoritat-W00-Heavy';
+    src: url('CCMoritat-W00-Heavy.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Fallback font */
+    background-color: #222; /* Dark background */
+    color: #fff; /* White text color */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #333; /* Slightly lighter background for container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Darker box shadow */
+}
+
+h1 {
+    font-family: 'CCMoritat-W00-Heavy', Arial, sans-serif;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Darker text shadow */
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"], select, button {
+    padding: 8px;
+    margin-right: 10px;
+    width: 200px;
+    font-family: 'CCMoritat-W00-Heavy', Arial, sans-serif;
+    background-color: #444; /* Darker input background */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+button {
+    padding: 8px 20px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#beatmapInfo {
+    margin-top: 20px;
+    text-align: left;
+    padding: 20px;
+    background-color: #444; /* Darker background for beatmap info */
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5); /* Darker box shadow */
+    font-family: 'CCMoritat-W00-Heavy', Arial, sans-serif;
+    color: #fff; /* White text color */
+}
+
+#beatmapInfo h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #fff; /* White text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Darker text shadow */
+}
+
+#beatmapInfo p {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #fff; /* White text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Darker text shadow */
+}
+
+#beatmapInfo img {
+    max-width: 100%;
+    margin-top: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5); /* Darker box shadow */
+}
+button#getInfoBtn {
+    margin-top: 5px; /* Increase top margin to push the button 5px lower */
+    background-color: #1e90ff; /* Blue background color */
+}
+.hidden {
+    display: none;
+}
+
+/* Add this CSS to update the Cancel button style */
+#changeApiKeyBtn {
+    background-color: #f44336; /* Red background color */
+}
+
+/* Add this CSS to adjust the Get Info button style */
+button#getInfoBtn {
+    margin-top: 5px; /* Increase top margin to push the button 5px lower */
+    background-color: #1e90ff; /* Blue background color */
+}
+
+/* Add this CSS to update text shadow for beatmap info */
+#beatmapInfo {
+    margin-top: 20px;
+    text-align: left;
+    padding: 20px;
+    background-color: #444; /* Darker background for beatmap info */
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5); /* Darker box shadow */
+    font-family: 'CCMoritat-W00-Heavy', Arial, sans-serif;
+    color: #fff; /* White text color */
+}
+
+#beatmapInfo h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Darker text shadow */
+}
+
+#beatmapInfo p {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #ffffff; /* Lighter text color */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* Darker text shadow */
+}
+
+#beatmapInfo img {
+    max-width: 100%;
+    margin-top: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5); /* Darker box shadow */
+}
